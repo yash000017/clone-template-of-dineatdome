@@ -26,9 +26,9 @@ hr{
 
 .first .first-main{
     position: absolute;
-    background-image:url(https://dineatdome.com/wp-content/uploads/2022/02/Dine-at-Dome-1-Shangri-La-Bengaluru-1.jpg);
     width: 100%;
     height: 100%;
+    background-image: url("../Images/backgroundImage.jpg");
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -80,16 +80,11 @@ hr{
 
 .first .first-main .front-detail{
     display: flex;
-    text-align: center;
+    justify-content: center;
     padding-top: 30px;
     width: 100%;
-    border: none;
-    border-radius: 60%;
 }
 
-.first .first-main .front-detail .front-select{
-    padding:  0 20px 0 480px;
-}
 
 select {
     width: 230px;
@@ -109,6 +104,9 @@ button{
     display: flex;
     background-color: #eaae3f;
 }
+.front-search{
+    padding-left: 20px;
+}
 
 .front-search :hover{
     background-color: #161a23;
@@ -126,8 +124,8 @@ button{
 
 .first .first-main .front .front-images{
     display: flex;
-    padding: 100px 400px;
-    text-align: center;
+    padding: 90px 0;
+    margin: 0 auto;
     width: 40%;
 }
 
@@ -141,12 +139,12 @@ button{
 }
 
 .first .first-main .front .front-images .images-icon .restaurants{
-    width: 50%;
+    width: 40%;
+    height: 40%;
+    fill: #eaae3f;
 }
 
-.first .first-main .front .front-images .images-icon .pubs{
-    width: 43%;
-}
+
 
 .front-p{
     font-size: 13px;
@@ -193,10 +191,8 @@ button{
 }
 
 .second .second-images .second-images-3 .second-simple{
-    width: 310px;
-    border: solid 3px rgb(230, 228, 228);
-    display: block;
-    text-align: center;
+    width: 33.33%;
+    border: 3px solid rgb(230, 228, 228);
     margin-right: 25px;
     border-radius: 3%;
 }
@@ -206,11 +202,9 @@ button{
 }
 
 .second .second-images .second-images-3 .second-simple .second-simple-image .second-simple-wrapper{
-    width: 310px;
+    width: 100%;
     height: 186px;
     object-fit: cover;
-    border-top-left-radius: 3%;
-    border-top-right-radius: 3%;
 }
 
 .second .second-images .second-images-3 .second-simple .second-simple-image .featured{
@@ -332,10 +326,9 @@ button{
 }
 
 .third .third-images .third-images-3 .third-simple{
-    width: 310px;
-    border: solid 1px rgb(230, 228, 228);
+    width: 33.33%;
+    border: 1px solid rgb(230, 228, 228);
     border-radius: 3%;
-    display: block;
     text-align: center;
     margin-right: 25px;
 }
@@ -377,7 +370,7 @@ button{
 
 .footer{
     background-color: #161a23;
-    padding: 40px 0 50px 0;
+    padding: 40px 0 45px 0;
 }
 
 .footer-content ul li a {
